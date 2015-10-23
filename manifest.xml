@@ -6,13 +6,14 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/boundarydevices" name="boundary"/>
 
   <project remote="yocto" revision="jethro" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="jethro" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="jethro" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="boundary" revision="jethro" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
