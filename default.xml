@@ -8,6 +8,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/boundarydevices" name="boundary"/>
   <remote fetch="https://github.com/OSSystems" name="oss"/>
+  <remote fetch="git://github.com/meta-qt5" name="meta-qt5-repo"/>
 
   <project remote="yocto" revision="jethro" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="jethro" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -23,5 +24,6 @@
   <project remote="freescale" revision="jethro" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
   <project remote="oss" revision="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="jethro" />
 
 </manifest>
