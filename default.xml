@@ -25,5 +25,6 @@
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
   <project remote="oss" revision="master" name="meta-browser" path="sources/meta-browser"/>
   <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="jethro" />
+  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="jethro" />
 
 </manifest>
