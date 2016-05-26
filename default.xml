@@ -23,7 +23,7 @@
   <project remote="freescale" revision="jethro" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="jethro" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss" revision="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="oss" revision="62c20f96a92d6082d2fdde82ca825cb2823e2577" name="meta-browser" path="sources/meta-browser"/>
   <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="jethro" />
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="jethro" />
 
