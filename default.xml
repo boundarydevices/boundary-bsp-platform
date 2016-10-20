@@ -20,11 +20,10 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="krogoth-next" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth-next" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
-  <!-- Lock to last master branch revision before the blacklist - Waiting for fix or krogoth branch -->
-  <project remote="oss" revision="5882f0efb19f7428df3e170ffb08d5d654277382" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="oss" revision="b251177608a8be789fe71f35e27558436ff46f50" name="meta-browser" path="sources/meta-browser"/>
   <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="krogoth-next" />
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="krogoth" />
 
