@@ -21,7 +21,7 @@
   </project>
 
   <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="krogoth" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
   <project remote="oss" revision="b251177608a8be789fe71f35e27558436ff46f50" name="meta-browser" path="sources/meta-browser"/>
   <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="krogoth-next" />
