@@ -24,6 +24,6 @@
   <project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="oss" revision="c8774d14caef4b26dee292562fec9540c359c61b" name="meta-browser" path="sources/meta-browser"/>
   <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="morty" />
-  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="krogoth" />
+  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="morty" />
 
 </manifest>
