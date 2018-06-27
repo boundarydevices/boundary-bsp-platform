@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="pyro"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/boundarydevices" name="boundary"/>
+  <remote fetch="https://github.com/OSSystems" name="oss"/>
+  <remote fetch="git://github.com/meta-qt5" name="meta-qt5-repo"/>
+
+  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="master-next" name="meta-freescale" path="sources/meta-freescale"/>
+
+  <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="boundary" revision="master-next" name="boundary-bsp-base" path="sources/base">
+    <linkfile dest="README" src="README"/>
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="freescale" revision="master-next" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="master-next" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="oss" revision="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="master-next" />
+  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="sumo" />
+
+</manifest>
