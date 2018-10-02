@@ -10,22 +10,21 @@
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="git://github.com/meta-qt5" name="meta-qt5-repo"/>
 
-  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="boundary" revision="master" name="boundary-bsp-base" path="sources/base">
+  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="master" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="master" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="freescale" revision="master" name="Documentation" path="sources/Documentation"/>
-  <!-- Lock to last master branch revision before the blacklist - Waiting for fix -->
-  <project remote="oss" revision="5882f0efb19f7428df3e170ffb08d5d654277382" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="master" />
-  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="krogoth" />
+  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" name="Documentation" path="sources/Documentation"/>
+  <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
 
 </manifest>
