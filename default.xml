@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="pyro"/>
+  <default sync-j="4" revision="sumo"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
@@ -10,20 +10,20 @@
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="git://github.com/meta-qt5" name="meta-qt5-repo"/>
 
-  <project remote="yocto" revision="pyro" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="pyro" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="sumo" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="sumo" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="sumo" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="boundary" revision="pyro" name="boundary-bsp-base" path="sources/base">
+  <project remote="boundary" revision="sumo" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="pyro" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="pyro" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="sumo" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="sumo" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="oss" revision="c8774d14caef4b26dee292562fec9540c359c61b" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="pyro" />
-  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="pyro" />
+  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="sumo" />
+  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="sumo" />
 
 </manifest>

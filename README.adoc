@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir boundary-bsp
 $: cd boundary-bsp
-$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b pyro
+$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b sumo
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
