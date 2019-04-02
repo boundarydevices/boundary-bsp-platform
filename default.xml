@@ -11,22 +11,22 @@
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5-repo"/>
   <remote fetch="https://github.com/meta-rust" name="rust"/>
 
-  <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="3bc700a12d4f21a5c7a1575da0972f9f78b4a091" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="08173f472244817b85fe4af8ab2add7a0090b122" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="24dd9328f7ec964bbad25b7061366f9f2ff6194d" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="freescale" revision="b4d2c8462220e7038adffc0a151767ef8da07c5d" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="8c2553f4e97346dc916ca52058f4a4af07094edc" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="04f80738d15ff54d37cae329852f88f5f7ee8ab7" name="Documentation" path="sources/Documentation"/>
+  <project remote="oss" revision="9ce1084e8562f2d9c9ea8e1a60897edf60520831" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="meta-qt5-repo" revision="0b0a608ddc55acf1f817aee03e65a06017239bed" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
-  <project remote="rust" name="meta-rust" path="sources/meta-rust"/>
+  <project remote="rust" revision="0621067c560f6e3e1a4c4c08ac173393bbafad5c" name="meta-rust" path="sources/meta-rust"/>
 
 </manifest>
