@@ -11,22 +11,22 @@
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5-repo"/>
   <remote fetch="https://github.com/meta-rust" name="rust"/>
 
-  <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="thud" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="freescale" revision="thud" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="thud" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="thud" name="Documentation" path="sources/Documentation"/>
+  <project remote="oss"  name="meta-browser" path="sources/meta-browser"/>
+  <project remote="meta-qt5-repo" revision="thud" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
-  <project remote="rust" name="meta-rust" path="sources/meta-rust"/>
+  <project remote="rust"  name="meta-rust" path="sources/meta-rust"/>
 
 </manifest>
