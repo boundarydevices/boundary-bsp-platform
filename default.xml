@@ -21,7 +21,7 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="thud" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="boundary" revision="thud" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="thud" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="thud" name="Documentation" path="sources/Documentation"/>
   <project remote="oss"  name="meta-browser" path="sources/meta-browser"/>
