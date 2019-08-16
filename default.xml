@@ -8,7 +8,6 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/boundarydevices" name="boundary"/>
   <remote fetch="https://github.com/OSSystems" name="oss"/>
-  <remote fetch="git://github.com/meta-qt5" name="meta-qt5-repo"/>
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
@@ -28,7 +27,7 @@
   <project remote="freescale" revision="thud" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="thud" name="Documentation" path="sources/Documentation"/>
   <project remote="oss"  revision="5a11120a6d54eb2d17a683a9c30a890a41008241" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="playground" revision="5bbb8d27ca10c38300bfc0c31c68470eb32b7711" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="playground" revision="79791026ff20539180027de0d796f8acd55bc7bf" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="playground" revision="thud" name="meta-boot2qt" path="sources/meta-boot2qt"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
   <project remote="rust"  name="meta-rust" path="sources/meta-rust"/>
