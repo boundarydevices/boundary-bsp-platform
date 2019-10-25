@@ -12,25 +12,25 @@
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
 
-  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="thud" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="yocto" revision="fa4ea76d93c87a2ad3ce88b052c282106b2761e4" name="meta-mingw" path="sources/meta-mingw"/>
+  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="warrior" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="warrior" name="meta-mingw" path="sources/meta-mingw"/>
 
-  <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
+  <project remote="boundary" revision="warrior" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="boundary" revision="thud" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="thud" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="thud" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss"  revision="5a11120a6d54eb2d17a683a9c30a890a41008241" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="playground" revision="79791026ff20539180027de0d796f8acd55bc7bf" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="playground" revision="thud" name="meta-boot2qt" path="sources/meta-boot2qt"/>
-  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="boundary" revision="warrior" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="warrior" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="warrior" name="Documentation" path="sources/Documentation"/>
+  <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="playground" revision="b16599a516e0f5e73673ba101ae0a852d8a14cf0" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="playground" revision="warrior" name="meta-boot2qt" path="sources/meta-boot2qt"/>
+  <project remote="boundary" revision="warrior" name="meta-boundary" path="sources/meta-boundary"/>
   <project remote="rust"  name="meta-rust" path="sources/meta-rust"/>
-  <project remote="clang" revision="b70965490d26c49771704addc27d9dbb31362b14" name="meta-clang" path="sources/meta-clang"/>
+  <project remote="clang" revision="warrior" name="meta-clang" path="sources/meta-clang"/>
 
 </manifest>
