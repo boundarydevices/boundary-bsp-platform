@@ -1,21 +1,25 @@
 = Boundary Devices BSP
 
-To get the BSP you need to have `repo` installed and use it as:
+To build the BSP, we recommend using a Docker Container so that you can build with
+a reproducible and stable build environment. A template dockerfile can be found here:
 
-Install the `repo` utility:
+http://linode.boundarydevices.com/docker/dockerfile_bionic
+
+Otherwise, you’ll need these packages installed:
+
+https://www.yoctoproject.org/docs/2.6/ref-manual/ref-manual.html#required-packages-for-the-build-host
+
+as well as this repo tool that can be installed like this:
 
 [source,console]
-$: mkdir ~/bin
-$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$: chmod a+x ~/bin/repo
+$: sudo apt-get install repo
 
 Download the BSP source:
 
 [source,console]
-$: PATH=${PATH}:~/bin
 $: mkdir boundary-bsp
 $: cd boundary-bsp
-$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b thud
+$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
