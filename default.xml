@@ -12,25 +12,21 @@
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
 
-  <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="zeus" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="yocto" revision="zeus" name="meta-mingw" path="sources/meta-mingw"/>
-
-  <project remote="oe" revision="zeus" name="meta-openembedded" path="sources/meta-openembedded"/>
-
-  <project remote="boundary" revision="zeus" name="boundary-bsp-base" path="sources/base">
+  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="zeus" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="zeus" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="zeus" name="Documentation" path="sources/Documentation"/>
+  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" name="Documentation" path="sources/Documentation"/>
   <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="playground" revision="upstream/zeus" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="playground" revision="zeus" name="meta-boot2qt" path="sources/meta-boot2qt"/>
-  <project remote="boundary" revision="zeus" name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="playground" revision="upstream/master" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
   <project remote="rust"  name="meta-rust" path="sources/meta-rust"/>
-  <project remote="clang" revision="zeus" name="meta-clang" path="sources/meta-clang"/>
+  <project remote="clang" name="meta-clang" path="sources/meta-clang"/>
 
 </manifest>
