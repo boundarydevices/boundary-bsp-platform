@@ -18,9 +18,9 @@
   </project>
 
   <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="boundary" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="boundary" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
   <project remote="playground" revision="upstream/dunfell" name="meta-qt5" path="sources/meta-qt5"/>
