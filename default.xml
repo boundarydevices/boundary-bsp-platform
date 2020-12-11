@@ -23,7 +23,7 @@
 
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="ee3be3b5986a4aa0e73df2204a625ae1fe5df37e"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="711e593d5984aad3bf35c51b7ac4482982bc16c7"/>
-  <project remote="boundary" revision="zeus" name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="boundary" revision="boundary-imx-5.4.47-2.2.0" name="meta-boundary" path="sources/meta-boundary"/>
 
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="14f1a630a47375432f93c556927b879b51d84c4e"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="dbcc686f52c3c84db8cb86aa8973a4e373651b98"/>
@@ -39,9 +39,7 @@
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="5144a99a696a8a72c0765ea0e8be8ceafaa78f85"/>
   <project name="meta-rust" path="sources/meta-rust" remote="rust" revision="7f235b6f8973cc5269448375f2a8f9867bb2a369"/>
-
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="3533d0b4b356ba6845f30d3d9b3143bc54ae254e"/>
-
   <project name="poky" path="sources/poky" remote="yocto" revision="5408e48d374fc741fa46b57ddfd8a537843bda6f"/>
 
 </manifest>
