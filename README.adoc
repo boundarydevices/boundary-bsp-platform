@@ -15,16 +15,16 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir boundary-bsp
 $: cd boundary-bsp
-$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b thud
+$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b boundary-imx-5.4.47-2.2.0
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
 
-To start a simple image build:
+To start a full build for Nitrogen8MP:
 
 [source,console]
-$: source ./setup-environment build
-$: bitbake core-image-minimal
+$: DISTRO=fsl-imx-xwayland-boundary MACHINE=nitrogen8mp source imx-setup-release.sh -b build
+$: bitbake imx-image-full
 
 You can use any directory to host your build.
 
