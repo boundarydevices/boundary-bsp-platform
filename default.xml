@@ -23,7 +23,7 @@
 
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="ee3be3b5986a4aa0e73df2204a625ae1fe5df37e"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="711e593d5984aad3bf35c51b7ac4482982bc16c7"/>
-  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="boundary-imx-5.4.47-2.2.0">
+  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="boundary-imx-5.4.70-2.3.0">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
   </project>
 
