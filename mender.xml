@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="dunfell"/>
+
+  <remote fetch="https://github.com/boundarydevices" name="boundary"/>
+  <remote fetch="https://github.com/mendersoftware" name="mender"/>
+
+  <project name="meta-mender" remote="mender" path="sources/meta-mender"/>
+  <project name="meta-mender-community" remote="mender" path="sources/meta-mender-community"/>
+  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
+	<copyfile dest="setup-environment-mender" src="setup-environment-mender"/>
+  </project>
+
+  <include name="default.xml"/>
+
+</manifest>
