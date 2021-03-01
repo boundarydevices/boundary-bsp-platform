@@ -26,7 +26,7 @@
   <project remote="boundary" revision="warrior" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="warrior" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="warrior" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="oss" revision="warrior" name="meta-browser" path="sources/meta-browser"/>
   <project remote="playground" revision="b16599a516e0f5e73673ba101ae0a852d8a14cf0" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="playground" revision="warrior" name="meta-boot2qt" path="sources/meta-boot2qt"/>
   <project remote="boundary" revision="warrior" name="meta-boundary" path="sources/meta-boundary"/>
