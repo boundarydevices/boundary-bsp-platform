@@ -14,7 +14,7 @@
 
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
-	<copyfile dest="setup-environment" src="setup-environment"/>
+	<copyfile dest="setup-environment-b2qt" src="setup-environment-b2qt"/>
   </project>
 
   <project remote="yocto" revision="e1839b58ebe05242a52fe050aa9a08140136aa0a" name="poky" path="sources/poky"/>
