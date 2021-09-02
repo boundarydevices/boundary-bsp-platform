@@ -17,16 +17,16 @@
 	<copyfile dest="setup-environment-b2qt" src="setup-environment-b2qt"/>
   </project>
 
-  <project remote="yocto" revision="e1839b58ebe05242a52fe050aa9a08140136aa0a" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="21594e7ffe2c9dc0b5a3c6519fd93784740be4c6" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe" revision="c3a36263f91e42302ad7c347e051cf1cd83e39f6" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="7f23af99cb97a12134a46b5b9d497f05b758bf0c" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="oe" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="playground" revision="34f86eb73c1c8a5daa38bee367e2978f25a7ecf8" name="meta-qt6" path="sources/meta-qt6"/>
-  <project remote="playground" revision="76e790fe3045d8b0432ccee5da6b3c3837125ba0" name="meta-boot2qt" path="sources/meta-boot2qt"/>
-  <project remote="yocto" revision="422b96cb2b6116442be1f40dfb5bd77447d1219e" name="meta-mingw" path="sources/meta-mingw"/>
+  <project remote="playground" revision="6.2" name="meta-qt6" path="sources/meta-qt6"/>
+  <project remote="playground" revision="6.2" name="meta-boot2qt" path="sources/meta-boot2qt"/>
+  <project remote="yocto" name="meta-mingw" path="sources/meta-mingw"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
 
 </manifest>
