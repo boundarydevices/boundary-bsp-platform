@@ -18,8 +18,8 @@
   </project>
 
   <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="c48e0d85c204288eda8620d7a68a232d467ce2af" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
