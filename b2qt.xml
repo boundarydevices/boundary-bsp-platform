@@ -12,21 +12,21 @@
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
 
-  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
+  <project remote="boundary" revision="c5874f9d0a548a87053c1152687fbbfeebad14de" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment-b2qt" src="setup-environment-b2qt"/>
   </project>
 
-  <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="oe" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="yocto" revision="c48e0d85c204288eda8620d7a68a232d467ce2af" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
-  <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="playground" revision="6.2" name="meta-qt6" path="sources/meta-qt6"/>
-  <project remote="playground" revision="6.2" name="meta-boot2qt" path="sources/meta-boot2qt"/>
-  <project remote="yocto" name="meta-mingw" path="sources/meta-mingw"/>
-  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="yocto" revision="4624b855ed47c5da08953191bfbb39e764ecb343" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="5741b949a875b07335d4920aefa6defd13ed45c6" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="25e9cbddbd32802634bafef62ba08da9821c604d" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="freescale" revision="bcfa0798fe44452b1834b298b0ca8147c2469e43" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="916df6d24c0a33a3b1533bde70b6a2724ec77af4" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="853e02c8cdb961dbe0664d6f3c5c2ec1a6ecbc0d" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
+  <project remote="freescale" revision="7c9ad5c4d9e76e261ddf63fb7bc87fc244f55a38" name="Documentation" path="sources/Documentation"/>
+  <project remote="playground" revision="32685d7671330a201a502da07f85fe8a3ed1334f" name="meta-qt6" path="sources/meta-qt6"/>
+  <project remote="playground" revision="d21236f5083a216e7e21b4e62516d2f9fc7ce3fa" name="meta-boot2qt" path="sources/meta-boot2qt"/>
+  <project remote="yocto" revision="422b96cb2b6116442be1f40dfb5bd77447d1219e" name="meta-mingw" path="sources/meta-mingw"/>
+  <project remote="boundary" revision="1e91e6ed4605246aa8dc04b28428b91cc4a3eac6" name="meta-boundary" path="sources/meta-boundary"/>
 
 </manifest>
