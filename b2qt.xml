@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="hardknott"/>
+  <default sync-j="4" revision="honister"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
@@ -19,13 +19,13 @@
 
   <project remote="yocto" name="poky" path="sources/poky"/>
   <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="oe" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="playground" revision="6.2.2" name="meta-qt6" path="sources/meta-qt6"/>
-  <project remote="playground" revision="6.2.2" name="meta-boot2qt" path="sources/meta-boot2qt"/>
+  <project remote="playground" revision="6.3" name="meta-qt6" path="sources/meta-qt6"/>
+  <project remote="playground" revision="6.3" name="meta-boot2qt" path="sources/meta-boot2qt"/>
   <project remote="yocto" name="meta-mingw" path="sources/meta-mingw"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
 
