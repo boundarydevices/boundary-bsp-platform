@@ -27,6 +27,6 @@
   <project remote="playground" revision="77c2f9bfe4733830e01459786b8ce0fe356b7c77" name="meta-qt6" path="sources/meta-qt6"/>
   <project remote="playground" revision="df938db7d5c5379f15d5b15b28bc77454d269b56" name="meta-boot2qt" path="sources/meta-boot2qt"/>
   <project remote="yocto" revision="f5d761cbd5c957e4405c5d40b0c236d263c916a8" name="meta-mingw" path="sources/meta-mingw"/>
-  <project remote="boundary" revision="8602f511bda15d96b0be54e199e6dbfee2710ee0"name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="boundary" revision="8602f511bda15d96b0be54e199e6dbfee2710ee0" name="meta-boundary" path="sources/meta-boundary"/>
 
 </manifest>
