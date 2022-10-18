@@ -6,7 +6,7 @@
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
 
   <project name="meta-mender" remote="mender" path="sources/meta-mender"/>
-  <project name="meta-mender-community" remote="mender" path="sources/meta-mender-community"/>
+  <project name="meta-mender-community" revision="kirkstone-next" remote="mender" path="sources/meta-mender-community"/>
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment-mender" src="setup-environment-mender"/>
