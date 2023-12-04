@@ -20,7 +20,7 @@
   <project remote="yocto" revision="refs/tags/honister-3.4.2" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="ecbcb80555c470887b9389be803bdc27ab140e1d" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe" revision="c05ae80ba680887ac924c21536091be7a1173427" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="fd3c4aa47c93b77942dfcf1ab8ded0c54cb589d5" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="eee1ab9357b1a009785998b5728d3f725014b3b7" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="d2e27cc4778663450495a67bfb036cba600cb27a" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="2e3a3017882f8eff3a5f8b98479b2618ae61f9f1" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
