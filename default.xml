@@ -22,7 +22,7 @@
   <project name="poky" path="sources/poky" remote="yocto" revision="ddb298ce894482467d82699d223c5555baad6591" upstream="mickledore"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="54b177f4acb3048d21a68f180fc183d0fdf47a94" upstream="mickledore"/>
   <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="1e0af2f5bb797d7bb639c2ac03c1248cc8d00bc9" upstream="mickledore"/>
-  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="mickledore">
+  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="b73a7801a94239906cb5f4fd9f3c3d38e712956d">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
   </project>
 
