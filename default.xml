@@ -29,7 +29,7 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
   <project name="meta-freescale" remote="community" path="sources/meta-freescale" revision="7327e03c61823268a5a957fe090c4cc5e1735b34" upstream="master" />
-  <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="baa33812b28d52c9032cbee99eb97c54ae6b6a96" upstream="master" />
+  <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="ae392bf4c9b9499234cb4a3411624a4177237af2" upstream="master" />
   <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="7956a0ab407a33c40fdc6eb4fabdcb7dc54fd359" upstream="master" />
   <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="c6380674f59489b327c5047d803cc35b68642cd4" upstream="mickledore" />
   <project name="meta-qt6" remote="qt" path="sources/meta-qt6" revision="1406d0a85525a71fe5d7892d7f915404290a78ad" upstream="6.5.0" />
