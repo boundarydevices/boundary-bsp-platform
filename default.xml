@@ -22,7 +22,7 @@
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="80e01188fa822d87d301ee71973c462d7a865493" upstream="scarthgap"/>
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="fe561f41aef0cff9e6f96730ab59f28dca2eb682" upstream="scarthgap"/>
   <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="laird" revision="lrd-12.103.0.x"/>
-  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary">
+  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="boundary-imx-6.6.36-2.1.0">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
   </project>
 
