@@ -6,7 +6,7 @@
 
   <remove-project name="meta-qt6"/>
 
-  <project name="meta-boot2qt" path="src/meta-boot2qt" remote="qt6" revision="scarthgap"/>
-  <project name="meta-mingw" path="src/meta-mingw" remote="yp" revision="refs/tags/yocto-5.0"/>
-  <project name="meta-qt6" path="src/meta-qt6" remote="qt6" revision="refs/tags/v6.8.1"/>
+  <project name="meta-boot2qt" path="sources/meta-boot2qt" remote="qt6" revision="scarthgap"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="yp" revision="refs/tags/yocto-5.0"/>
+  <project name="meta-qt6" path="sources/meta-qt6" remote="qt6" revision="refs/tags/v6.8.1"/>
 </manifest>
