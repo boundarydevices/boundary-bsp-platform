@@ -25,6 +25,7 @@
   <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="ezurio" revision="lrd-12.103.0.x"/>
   <project name="meta-boundary" path="sources/meta-boundary" remote="boundary">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
+    <linkfile dest="setup-environment-b2qt" src="tools/setup-environment-b2qt"/>
   </project>
 
   <project name="fsl-community-bsp-base" remote="community" path="sources/base" revision="84df0b1ff416c6739472f7f7eadff04fa90d38f6" upstream="scarthgap">
