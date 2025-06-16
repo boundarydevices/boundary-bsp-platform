@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="boundary" fetch="https://github.com/boundarydevices"/>
+  <remote name="ezurio" fetch="https://github.com/ezurio"/>
+
+  <include name="imx-6.12.3-1.0.0.xml"/>
+
+  <remove-project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty"/>
+  <remove-project name="meta-imx"                remote="imx"       path="sources/meta-imx"/>
+
+  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary">
+    <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
+    <linkfile dest="setup-environment-b2qt" src="tools/setup-environment-b2qt"/>
+  </project>
+  <project name="meta-imx" remote="imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.12.3_1.0.0" upstream="styhead-6.12.3-1.0.0"/>
+  <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="ezurio" revision="lrd-12.103.0.x"/>
+</manifest>
