@@ -23,7 +23,7 @@
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="2b7433611d80f6d0ee1b04156fa91fc73d3c2665" upstream="scarthgap"/>
 
   <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="ezurio" revision="lrd-13.24.0.x"/>
-  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="scarthgap-sg-n95-b0">
+  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="setup-environment-b2qt" src="tools/setup-environment-b2qt"/>
   </project>
